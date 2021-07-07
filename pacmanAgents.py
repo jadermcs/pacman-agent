@@ -18,6 +18,13 @@ import random
 import game
 import util
 
+class DQNAgent(Agent):
+    "An agent that performs a DQN optimization."
+    def getAction(self, state):
+        "The agent always goes West."
+        print(state)
+        return Directions.WEST
+
 class LeftTurnAgent(game.Agent):
     "An agent that turns left at every opportunity"
 
