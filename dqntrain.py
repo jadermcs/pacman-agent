@@ -9,7 +9,7 @@ BATCH = 512
 LR = 0.001
 EPOCH = 10000
 memory = []
-MAX_MEM = 10000
+MAX_MEM = 100000
 index2action = {x:y for (x,y) in\
                   enumerate(['North', 'South', 'East', 'West', 'Stop'])}
 action2index = {y:x for (x,y) in index2action.items()}
@@ -72,8 +72,9 @@ def train(data, model, loss_fn, optimizer, device):
     optimizer.step()
     return loss.item()
 
-def main(layout, display):
+def main(layout, display, exp_name):
     import pacmanAgents, ghostAgents, textDisplay
+    f = open(exp_name+'.out', 'w')
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     laystr = str(layout).split('\n')
     model = CNNModel(len(laystr[0]), len(laystr)).to(device)
@@ -154,8 +155,16 @@ def main(layout, display):
                     targets[i, action0] = reward0 + GAMMA * q_sa
             loss += train((inputs, targets), model, loss_fn, optimizer, device)
             count += 1
+        print(f"score: {state.data.score}", file=f)
         print(f"epoch: {e:04d} lr:{LR:.4f} win_count: {win_cnt:03d} episodes: {count:03d} "
-              f"loss: {loss/count:>7f} ")
+              f"loss: {loss/count:>7f} ", file=f)
+        if e % 100 == 0:
+            torch.save({
+                'epoch': e,
+                'model_state_dict': model.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'loss': loss
+            }, f"model_checkpoint/{exp_name}_{e}_{loss}.pt")
 
 if __name__ == "__main__":
     from optparse import OptionParser
@@ -175,4 +184,4 @@ if __name__ == "__main__":
                       help='display output', default=False)
 
     options, args = parser.parse_args()
-    main(layout.getLayout(options.layout), options.display)
+    main(layout.getLayout(options.layout), options.display, options.layout)
