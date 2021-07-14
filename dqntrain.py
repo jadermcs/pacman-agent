@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 from pacman import ClassicGameRules
 
 BATCH = 512
-LR = 0.001
+LR = 0.0001
 EPOCH = 10000
 memory = []
-MAX_MEM = 100000
+MAX_MEM = 50000
 index2action = {x:y for (x,y) in\
                   enumerate(['North', 'South', 'East', 'West', 'Stop'])}
 action2index = {y:x for (x,y) in index2action.items()}
@@ -84,7 +84,7 @@ def main(layout, display, exp_name):
     win_cnt = 0
     EPSILON = 0.5
     for e in range(EPOCH):
-        GAMMA = 0.7
+        GAMMA = 0.5
         rules = ClassicGameRules()
         agents = [pacmanAgents.DQNAgent()] +\
         [ghostAgents.RandomGhost(i+1) for i in range(layout.getNumGhosts())]
@@ -117,7 +117,7 @@ def main(layout, display, exp_name):
                 q = model(tensor)
                 action = np.argsort(q[0].cpu().detach().numpy())
                 action = [index2action[x] for x in action if index2action[x] in\
-                          state.getLegalPacmanActions()][0]
+                          state.getLegalPacmanActions()][-1]
 
             last_state = convert_to_image(state)
             reward = state.data.score
@@ -127,7 +127,7 @@ def main(layout, display, exp_name):
                 done = state.isWin() or state.isLose()
                 if done: break
             rules.process(state, game)
-            reward = state.data.score - reward
+            reward = state.data.score - reward - 1
             if state.isWin():
                 win_cnt += 1
             memory.append([[last_state, action2index[action], reward,
@@ -157,14 +157,14 @@ def main(layout, display, exp_name):
             count += 1
         print(f"score: {state.data.score}", file=f)
         print(f"epoch: {e:04d} lr:{LR:.4f} win_count: {win_cnt:03d} episodes: {count:03d} "
-              f"loss: {loss/count:>7f} ", file=f)
+              f"loss: {loss/count:>7f}", file=f)
         if e % 100 == 0:
             torch.save({
                 'epoch': e,
                 'model_state_dict': model.state_dict(),
                 'optimizer_state_dict': optimizer.state_dict(),
                 'loss': loss
-            }, f"model_checkpoint/{exp_name}_{e}_{loss}.pt")
+            }, f"model_checkpoint/{exp_name}_{e}_{loss:.4f}.pt")
 
 if __name__ == "__main__":
     from optparse import OptionParser
