@@ -1,0 +1,506 @@
+score: -423
+epoch: 0000 lr:0.0001 win_count: 000 episodes: 033 loss: 4.052934
+score: -496
+epoch: 0001 lr:0.0001 win_count: 000 episodes: 036 loss: 838.699939
+score: -599
+epoch: 0002 lr:0.0001 win_count: 000 episodes: 139 loss: 728.132286
+score: -677
+epoch: 0003 lr:0.0001 win_count: 000 episodes: 217 loss: 456.723708
+score: -485
+epoch: 0004 lr:0.0001 win_count: 000 episodes: 015 loss: 414.144886
+score: -606
+epoch: 0005 lr:0.0001 win_count: 000 episodes: 146 loss: 488.079965
+score: -534
+epoch: 0006 lr:0.0001 win_count: 000 episodes: 074 loss: 435.841269
+score: -570
+epoch: 0007 lr:0.0001 win_count: 000 episodes: 100 loss: 465.271789
+score: -542
+epoch: 0008 lr:0.0001 win_count: 000 episodes: 082 loss: 502.898959
+score: -504
+epoch: 0009 lr:0.0001 win_count: 000 episodes: 044 loss: 532.918750
+score: -576
+epoch: 0010 lr:0.0001 win_count: 000 episodes: 116 loss: 543.817913
+score: -598
+epoch: 0011 lr:0.0001 win_count: 000 episodes: 128 loss: 528.637879
+score: -570
+epoch: 0012 lr:0.0001 win_count: 000 episodes: 110 loss: 481.990425
+score: -549
+epoch: 0013 lr:0.0001 win_count: 000 episodes: 089 loss: 506.912976
+score: -517
+epoch: 0014 lr:0.0001 win_count: 000 episodes: 057 loss: 487.024592
+score: -496
+epoch: 0015 lr:0.0001 win_count: 000 episodes: 036 loss: 549.318367
+score: -533
+epoch: 0016 lr:0.0001 win_count: 000 episodes: 073 loss: 493.991350
+score: -614
+epoch: 0017 lr:0.0001 win_count: 000 episodes: 154 loss: 528.618366
+score: -460
+epoch: 0018 lr:0.0001 win_count: 000 episodes: 040 loss: 588.950808
+score: -498
+epoch: 0019 lr:0.0001 win_count: 000 episodes: 028 loss: 647.048182
+score: -485
+epoch: 0020 lr:0.0001 win_count: 000 episodes: 025 loss: 511.463069
+score: -501
+epoch: 0021 lr:0.0001 win_count: 000 episodes: 031 loss: 646.118109
+score: -589
+epoch: 0022 lr:0.0001 win_count: 000 episodes: 129 loss: 605.715841
+score: -492
+epoch: 0023 lr:0.0001 win_count: 000 episodes: 022 loss: 600.922858
+score: -735
+epoch: 0024 lr:0.0001 win_count: 000 episodes: 375 loss: 548.957462
+score: -503
+epoch: 0025 lr:0.0001 win_count: 000 episodes: 033 loss: 468.979906
+score: -511
+epoch: 0026 lr:0.0001 win_count: 000 episodes: 041 loss: 552.960853
+score: -583
+epoch: 0027 lr:0.0001 win_count: 000 episodes: 123 loss: 554.973867
+score: -578
+epoch: 0028 lr:0.0001 win_count: 000 episodes: 118 loss: 509.862579
+score: -473
+epoch: 0029 lr:0.0001 win_count: 000 episodes: 013 loss: 570.510233
+score: -505
+epoch: 0030 lr:0.0001 win_count: 000 episodes: 045 loss: 561.659743
+score: -531
+epoch: 0031 lr:0.0001 win_count: 000 episodes: 071 loss: 616.882525
+score: -685
+epoch: 0032 lr:0.0001 win_count: 000 episodes: 225 loss: 533.608710
+score: -483
+epoch: 0033 lr:0.0001 win_count: 000 episodes: 013 loss: 600.351795
+score: -544
+epoch: 0034 lr:0.0001 win_count: 000 episodes: 084 loss: 560.032041
+score: -538
+epoch: 0035 lr:0.0001 win_count: 000 episodes: 078 loss: 579.603009
+score: -528
+epoch: 0036 lr:0.0001 win_count: 000 episodes: 118 loss: 558.789958
+score: -532
+epoch: 0037 lr:0.0001 win_count: 000 episodes: 072 loss: 579.379620
+score: -539
+epoch: 0038 lr:0.0001 win_count: 000 episodes: 079 loss: 587.520949
+score: -489
+epoch: 0039 lr:0.0001 win_count: 000 episodes: 019 loss: 579.210104
+score: -585
+epoch: 0040 lr:0.0001 win_count: 000 episodes: 125 loss: 549.015009
+score: -514
+epoch: 0041 lr:0.0001 win_count: 000 episodes: 054 loss: 590.107084
+score: -543
+epoch: 0042 lr:0.0001 win_count: 000 episodes: 083 loss: 581.500526
+score: -529
+epoch: 0043 lr:0.0001 win_count: 000 episodes: 069 loss: 560.571112
+score: -519
+epoch: 0044 lr:0.0001 win_count: 000 episodes: 059 loss: 612.969085
+score: -517
+epoch: 0045 lr:0.0001 win_count: 000 episodes: 057 loss: 603.221051
+score: -443
+epoch: 0046 lr:0.0001 win_count: 000 episodes: 033 loss: 670.096432
+score: -459
+epoch: 0047 lr:0.0001 win_count: 000 episodes: 039 loss: 593.723042
+score: -488
+epoch: 0048 lr:0.0001 win_count: 000 episodes: 018 loss: 545.717066
+score: -510
+epoch: 0049 lr:0.0001 win_count: 000 episodes: 040 loss: 581.072908
+score: -518
+epoch: 0050 lr:0.0001 win_count: 000 episodes: 058 loss: 590.912311
+score: -526
+epoch: 0051 lr:0.0001 win_count: 000 episodes: 066 loss: 637.755338
+score: -546
+epoch: 0052 lr:0.0001 win_count: 000 episodes: 086 loss: 647.043544
+score: -509
+epoch: 0053 lr:0.0001 win_count: 000 episodes: 049 loss: 581.324976
+score: -574
+epoch: 0054 lr:0.0001 win_count: 000 episodes: 114 loss: 621.636735
+score: -504
+epoch: 0055 lr:0.0001 win_count: 000 episodes: 034 loss: 590.333516
+score: -591
+epoch: 0056 lr:0.0001 win_count: 000 episodes: 131 loss: 596.615581
+score: -588
+epoch: 0057 lr:0.0001 win_count: 000 episodes: 128 loss: 583.575605
+score: -494
+epoch: 0058 lr:0.0001 win_count: 000 episodes: 034 loss: 562.769856
+score: -588
+epoch: 0059 lr:0.0001 win_count: 000 episodes: 128 loss: 573.932156
+score: -493
+epoch: 0060 lr:0.0001 win_count: 000 episodes: 023 loss: 475.955613
+score: -508
+epoch: 0061 lr:0.0001 win_count: 000 episodes: 058 loss: 532.052360
+score: -472
+epoch: 0062 lr:0.0001 win_count: 000 episodes: 012 loss: 451.844419
+score: -546
+epoch: 0063 lr:0.0001 win_count: 000 episodes: 086 loss: 498.703500
+score: -494
+epoch: 0064 lr:0.0001 win_count: 000 episodes: 034 loss: 475.292093
+score: -483
+epoch: 0065 lr:0.0001 win_count: 000 episodes: 013 loss: 421.981506
+score: -585
+epoch: 0066 lr:0.0001 win_count: 000 episodes: 125 loss: 451.786616
+score: -531
+epoch: 0067 lr:0.0001 win_count: 000 episodes: 071 loss: 382.493169
+score: -528
+epoch: 0068 lr:0.0001 win_count: 000 episodes: 228 loss: 318.690950
+score: -529
+epoch: 0069 lr:0.0001 win_count: 000 episodes: 069 loss: 265.300026
+score: -491
+epoch: 0070 lr:0.0001 win_count: 000 episodes: 031 loss: 246.235001
+score: -444
+epoch: 0071 lr:0.0001 win_count: 000 episodes: 054 loss: 266.193533
+score: -480
+epoch: 0072 lr:0.0001 win_count: 000 episodes: 020 loss: 215.798514
+score: -487
+epoch: 0073 lr:0.0001 win_count: 000 episodes: 027 loss: 250.532250
+score: -409
+epoch: 0074 lr:0.0001 win_count: 000 episodes: 059 loss: 234.265756
+score: -427
+epoch: 0075 lr:0.0001 win_count: 000 episodes: 067 loss: 218.097228
+score: -537
+epoch: 0076 lr:0.0001 win_count: 000 episodes: 227 loss: 211.020485
+score: -308
+epoch: 0077 lr:0.0001 win_count: 000 episodes: 068 loss: 187.015967
+score: -413
+epoch: 0078 lr:0.0001 win_count: 000 episodes: 063 loss: 216.180846
+score: -378
+epoch: 0079 lr:0.0001 win_count: 000 episodes: 038 loss: 194.140693
+score: -368
+epoch: 0080 lr:0.0001 win_count: 000 episodes: 048 loss: 217.946631
+score: -505
+epoch: 0081 lr:0.0001 win_count: 000 episodes: 045 loss: 208.400423
+score: -337
+epoch: 0082 lr:0.0001 win_count: 000 episodes: 037 loss: 168.226063
+score: -476
+epoch: 0083 lr:0.0001 win_count: 000 episodes: 076 loss: 207.201191
+score: -359
+epoch: 0084 lr:0.0001 win_count: 000 episodes: 029 loss: 211.481551
+score: -472
+epoch: 0085 lr:0.0001 win_count: 000 episodes: 012 loss: 231.955616
+score: -360
+epoch: 0086 lr:0.0001 win_count: 000 episodes: 050 loss: 233.463067
+score: -493
+epoch: 0087 lr:0.0001 win_count: 000 episodes: 033 loss: 210.540374
+score: -480
+epoch: 0088 lr:0.0001 win_count: 000 episodes: 020 loss: 218.535700
+score: -310
+epoch: 0089 lr:0.0001 win_count: 000 episodes: 070 loss: 206.070797
+score: -379
+epoch: 0090 lr:0.0001 win_count: 000 episodes: 099 loss: 209.734479
+score: -344
+epoch: 0091 lr:0.0001 win_count: 000 episodes: 034 loss: 227.483505
+score: -307
+epoch: 0092 lr:0.0001 win_count: 000 episodes: 067 loss: 200.522857
+score: -530
+epoch: 0093 lr:0.0001 win_count: 000 episodes: 070 loss: 216.052720
+score: -338
+epoch: 0094 lr:0.0001 win_count: 000 episodes: 138 loss: 246.670301
+score: -400
+epoch: 0095 lr:0.0001 win_count: 000 episodes: 220 loss: 232.875810
+score: -495
+epoch: 0096 lr:0.0001 win_count: 000 episodes: 035 loss: 200.151774
+score: -479
+epoch: 0097 lr:0.0001 win_count: 000 episodes: 059 loss: 203.717205
+score: -225
+epoch: 0098 lr:0.0001 win_count: 000 episodes: 365 loss: 230.695571
+score: -539
+epoch: 0099 lr:0.0001 win_count: 000 episodes: 079 loss: 252.721547
+score: -535
+epoch: 0100 lr:0.0001 win_count: 000 episodes: 075 loss: 236.357406
+score: -502
+epoch: 0101 lr:0.0001 win_count: 000 episodes: 152 loss: 221.187101
+score: 107
+epoch: 0102 lr:0.0001 win_count: 000 episodes: 103 loss: 219.633083
+score: -508
+epoch: 0103 lr:0.0001 win_count: 000 episodes: 048 loss: 212.677221
+score: -351
+epoch: 0104 lr:0.0001 win_count: 000 episodes: 171 loss: 235.896507
+score: -564
+epoch: 0105 lr:0.0001 win_count: 000 episodes: 114 loss: 223.217933
+score: -483
+epoch: 0106 lr:0.0001 win_count: 000 episodes: 023 loss: 235.722225
+score: -467
+epoch: 0107 lr:0.0001 win_count: 000 episodes: 047 loss: 252.667224
+score: -311
+epoch: 0108 lr:0.0001 win_count: 000 episodes: 141 loss: 255.174384
+score: -493
+epoch: 0109 lr:0.0001 win_count: 000 episodes: 033 loss: 206.273401
+score: -522
+epoch: 0110 lr:0.0001 win_count: 000 episodes: 062 loss: 244.246455
+score: -514
+epoch: 0111 lr:0.0001 win_count: 000 episodes: 054 loss: 254.578160
+score: -448
+epoch: 0112 lr:0.0001 win_count: 000 episodes: 218 loss: 245.256781
+score: -529
+epoch: 0113 lr:0.0001 win_count: 000 episodes: 069 loss: 239.781630
+score: -479
+epoch: 0114 lr:0.0001 win_count: 000 episodes: 029 loss: 255.576001
+score: -160
+epoch: 0115 lr:0.0001 win_count: 000 episodes: 160 loss: 262.350996
+score: -273
+epoch: 0116 lr:0.0001 win_count: 000 episodes: 093 loss: 265.589149
+score: -490
+epoch: 0117 lr:0.0001 win_count: 000 episodes: 110 loss: 253.111677
+score: -488
+epoch: 0118 lr:0.0001 win_count: 000 episodes: 118 loss: 240.984125
+score: -454
+epoch: 0119 lr:0.0001 win_count: 000 episodes: 074 loss: 249.727476
+score: -124
+epoch: 0120 lr:0.0001 win_count: 000 episodes: 094 loss: 279.813567
+score: -376
+epoch: 0121 lr:0.0001 win_count: 000 episodes: 036 loss: 263.710735
+score: -535
+epoch: 0122 lr:0.0001 win_count: 000 episodes: 075 loss: 263.216649
+score: -331
+epoch: 0123 lr:0.0001 win_count: 000 episodes: 081 loss: 249.927370
+score: -332
+epoch: 0124 lr:0.0001 win_count: 000 episodes: 082 loss: 283.404864
+score: -482
+epoch: 0125 lr:0.0001 win_count: 000 episodes: 052 loss: 263.197936
+score: -481
+epoch: 0126 lr:0.0001 win_count: 000 episodes: 021 loss: 283.755493
+score: -491
+epoch: 0127 lr:0.0001 win_count: 000 episodes: 031 loss: 312.429135
+score: -489
+epoch: 0128 lr:0.0001 win_count: 000 episodes: 089 loss: 264.274171
+score: -503
+epoch: 0129 lr:0.0001 win_count: 000 episodes: 043 loss: 293.059420
+score: -540
+epoch: 0130 lr:0.0001 win_count: 000 episodes: 120 loss: 284.278432
+score: -369
+epoch: 0131 lr:0.0001 win_count: 000 episodes: 089 loss: 291.562168
+score: -372
+epoch: 0132 lr:0.0001 win_count: 000 episodes: 042 loss: 296.865412
+score: -372
+epoch: 0133 lr:0.0001 win_count: 000 episodes: 062 loss: 298.771882
+score: -486
+epoch: 0134 lr:0.0001 win_count: 000 episodes: 156 loss: 303.768510
+score: -532
+epoch: 0135 lr:0.0001 win_count: 000 episodes: 072 loss: 324.671031
+score: -373
+epoch: 0136 lr:0.0001 win_count: 000 episodes: 133 loss: 296.012073
+score: -375
+epoch: 0137 lr:0.0001 win_count: 000 episodes: 155 loss: 262.928149
+score: -503
+epoch: 0138 lr:0.0001 win_count: 000 episodes: 063 loss: 316.905277
+score: -317
+epoch: 0139 lr:0.0001 win_count: 000 episodes: 077 loss: 288.299518
+score: -285
+epoch: 0140 lr:0.0001 win_count: 000 episodes: 125 loss: 303.733190
+score: -425
+epoch: 0141 lr:0.0001 win_count: 000 episodes: 045 loss: 314.849283
+score: -455
+epoch: 0142 lr:0.0001 win_count: 000 episodes: 095 loss: 293.738782
+score: -435
+epoch: 0143 lr:0.0001 win_count: 000 episodes: 135 loss: 292.358112
+score: -462
+epoch: 0144 lr:0.0001 win_count: 000 episodes: 092 loss: 287.237377
+score: -443
+epoch: 0145 lr:0.0001 win_count: 000 episodes: 063 loss: 277.259700
+score: -489
+epoch: 0146 lr:0.0001 win_count: 000 episodes: 069 loss: 290.065965
+score: -456
+epoch: 0147 lr:0.0001 win_count: 000 episodes: 016 loss: 289.963435
+score: -488
+epoch: 0148 lr:0.0001 win_count: 000 episodes: 028 loss: 340.796228
+score: -626
+epoch: 0149 lr:0.0001 win_count: 000 episodes: 236 loss: 313.092221
+score: -368
+epoch: 0150 lr:0.0001 win_count: 000 episodes: 028 loss: 310.838096
+score: -460
+epoch: 0151 lr:0.0001 win_count: 000 episodes: 040 loss: 269.257503
+score: -455
+epoch: 0152 lr:0.0001 win_count: 000 episodes: 015 loss: 268.728714
+score: -333
+epoch: 0153 lr:0.0001 win_count: 000 episodes: 093 loss: 294.904741
+score: -312
+epoch: 0154 lr:0.0001 win_count: 000 episodes: 092 loss: 291.291600
+score: -453
+epoch: 0155 lr:0.0001 win_count: 000 episodes: 013 loss: 327.560507
+score: -430
+epoch: 0156 lr:0.0001 win_count: 000 episodes: 020 loss: 355.340382
+score: -450
+epoch: 0157 lr:0.0001 win_count: 000 episodes: 120 loss: 330.831743
+score: -468
+epoch: 0158 lr:0.0001 win_count: 000 episodes: 018 loss: 332.584671
+score: -325
+epoch: 0159 lr:0.0001 win_count: 000 episodes: 085 loss: 312.908934
+score: -487
+epoch: 0160 lr:0.0001 win_count: 000 episodes: 027 loss: 257.307222
+score: -439
+epoch: 0161 lr:0.0001 win_count: 000 episodes: 029 loss: 406.429199
+score: -561
+epoch: 0162 lr:0.0001 win_count: 000 episodes: 111 loss: 316.020951
+score: -482
+epoch: 0163 lr:0.0001 win_count: 000 episodes: 042 loss: 292.961462
+score: -478
+epoch: 0164 lr:0.0001 win_count: 000 episodes: 038 loss: 325.137510
+score: -506
+epoch: 0165 lr:0.0001 win_count: 000 episodes: 056 loss: 335.817095
+score: -465
+epoch: 0166 lr:0.0001 win_count: 000 episodes: 145 loss: 345.039717
+score: -610
+epoch: 0167 lr:0.0001 win_count: 000 episodes: 390 loss: 326.259485
+score: -487
+epoch: 0168 lr:0.0001 win_count: 000 episodes: 147 loss: 302.289888
+score: -523
+epoch: 0169 lr:0.0001 win_count: 000 episodes: 073 loss: 308.858074
+score: -435
+epoch: 0170 lr:0.0001 win_count: 000 episodes: 075 loss: 324.772625
+score: -479
+epoch: 0171 lr:0.0001 win_count: 000 episodes: 029 loss: 329.134370
+score: -427
+epoch: 0172 lr:0.0001 win_count: 000 episodes: 047 loss: 339.410846
+score: -334
+epoch: 0173 lr:0.0001 win_count: 000 episodes: 094 loss: 300.245022
+score: -375
+epoch: 0174 lr:0.0001 win_count: 000 episodes: 105 loss: 313.340908
+score: -488
+epoch: 0175 lr:0.0001 win_count: 000 episodes: 028 loss: 322.352171
+score: -445
+epoch: 0176 lr:0.0001 win_count: 000 episodes: 075 loss: 353.838025
+score: -488
+epoch: 0177 lr:0.0001 win_count: 000 episodes: 048 loss: 327.614066
+score: -429
+epoch: 0178 lr:0.0001 win_count: 000 episodes: 049 loss: 328.639894
+score: -437
+epoch: 0179 lr:0.0001 win_count: 000 episodes: 027 loss: 317.737005
+score: -440
+epoch: 0180 lr:0.0001 win_count: 000 episodes: 040 loss: 291.451652
+score: -306
+epoch: 0181 lr:0.0001 win_count: 000 episodes: 096 loss: 346.644240
+score: -462
+epoch: 0182 lr:0.0001 win_count: 000 episodes: 052 loss: 332.847730
+score: -497
+epoch: 0183 lr:0.0001 win_count: 000 episodes: 047 loss: 321.353615
+score: -440
+epoch: 0184 lr:0.0001 win_count: 000 episodes: 030 loss: 288.872587
+score: -499
+epoch: 0185 lr:0.0001 win_count: 000 episodes: 059 loss: 386.601177
+score: -427
+epoch: 0186 lr:0.0001 win_count: 000 episodes: 017 loss: 365.435325
+score: -439
+epoch: 0187 lr:0.0001 win_count: 000 episodes: 039 loss: 363.140540
+score: -430
+epoch: 0188 lr:0.0001 win_count: 000 episodes: 030 loss: 303.793313
+score: -418
+epoch: 0189 lr:0.0001 win_count: 000 episodes: 038 loss: 355.449084
+score: -520
+epoch: 0190 lr:0.0001 win_count: 000 episodes: 060 loss: 367.672470
+score: -460
+epoch: 0191 lr:0.0001 win_count: 000 episodes: 120 loss: 345.589718
+score: -393
+epoch: 0192 lr:0.0001 win_count: 000 episodes: 143 loss: 344.767347
+score: -502
+epoch: 0193 lr:0.0001 win_count: 000 episodes: 042 loss: 350.634487
+score: -402
+epoch: 0194 lr:0.0001 win_count: 000 episodes: 072 loss: 338.292341
+score: -403
+epoch: 0195 lr:0.0001 win_count: 000 episodes: 033 loss: 355.362717
+score: -418
+epoch: 0196 lr:0.0001 win_count: 000 episodes: 108 loss: 384.624025
+score: -421
+epoch: 0197 lr:0.0001 win_count: 000 episodes: 081 loss: 345.545707
+score: -493
+epoch: 0198 lr:0.0001 win_count: 000 episodes: 033 loss: 345.577733
+score: -566
+epoch: 0199 lr:0.0001 win_count: 000 episodes: 106 loss: 385.314213
+score: -427
+epoch: 0200 lr:0.0001 win_count: 000 episodes: 057 loss: 341.312968
+score: -438
+epoch: 0201 lr:0.0001 win_count: 000 episodes: 028 loss: 345.039437
+score: -473
+epoch: 0202 lr:0.0001 win_count: 000 episodes: 113 loss: 342.456264
+score: -443
+epoch: 0203 lr:0.0001 win_count: 000 episodes: 033 loss: 398.942529
+score: -242
+epoch: 0204 lr:0.0001 win_count: 000 episodes: 182 loss: 345.431809
+score: -460
+epoch: 0205 lr:0.0001 win_count: 000 episodes: 060 loss: 369.893256
+score: -91
+epoch: 0206 lr:0.0001 win_count: 000 episodes: 331 loss: 353.822720
+score: -521
+epoch: 0207 lr:0.0001 win_count: 000 episodes: 131 loss: 379.081952
+score: -436
+epoch: 0208 lr:0.0001 win_count: 000 episodes: 026 loss: 343.797907
+score: -427
+epoch: 0209 lr:0.0001 win_count: 000 episodes: 027 loss: 329.950147
+score: -450
+epoch: 0210 lr:0.0001 win_count: 000 episodes: 040 loss: 321.714743
+score: -422
+epoch: 0211 lr:0.0001 win_count: 000 episodes: 052 loss: 329.022086
+score: -419
+epoch: 0212 lr:0.0001 win_count: 000 episodes: 039 loss: 332.423362
+score: -432
+epoch: 0213 lr:0.0001 win_count: 000 episodes: 012 loss: 357.932959
+score: -406
+epoch: 0214 lr:0.0001 win_count: 000 episodes: 116 loss: 396.450440
+score: -502
+epoch: 0215 lr:0.0001 win_count: 000 episodes: 222 loss: 371.794742
+score: -388
+epoch: 0216 lr:0.0001 win_count: 000 episodes: 028 loss: 348.129914
+score: -425
+epoch: 0217 lr:0.0001 win_count: 000 episodes: 015 loss: 364.674454
+score: -433
+epoch: 0218 lr:0.0001 win_count: 000 episodes: 013 loss: 313.202691
+score: -268
+epoch: 0219 lr:0.0001 win_count: 000 episodes: 198 loss: 354.563709
+score: -500
+epoch: 0220 lr:0.0001 win_count: 000 episodes: 040 loss: 395.275902
+score: -441
+epoch: 0221 lr:0.0001 win_count: 000 episodes: 041 loss: 390.215781
+score: -487
+epoch: 0222 lr:0.0001 win_count: 000 episodes: 087 loss: 392.855393
+score: -536
+epoch: 0223 lr:0.0001 win_count: 000 episodes: 236 loss: 366.680073
+score: -524
+epoch: 0224 lr:0.0001 win_count: 000 episodes: 134 loss: 369.221236
+score: -414
+epoch: 0225 lr:0.0001 win_count: 000 episodes: 024 loss: 448.486654
+score: -461
+epoch: 0226 lr:0.0001 win_count: 000 episodes: 051 loss: 351.322778
+score: -408
+epoch: 0227 lr:0.0001 win_count: 000 episodes: 138 loss: 392.187910
+score: -464
+epoch: 0228 lr:0.0001 win_count: 000 episodes: 054 loss: 345.085282
+score: -392
+epoch: 0229 lr:0.0001 win_count: 000 episodes: 052 loss: 346.624526
+score: -434
+epoch: 0230 lr:0.0001 win_count: 000 episodes: 034 loss: 387.922852
+score: -466
+epoch: 0231 lr:0.0001 win_count: 000 episodes: 136 loss: 358.986475
+score: -475
+epoch: 0232 lr:0.0001 win_count: 000 episodes: 015 loss: 379.288497
+score: -402
+epoch: 0233 lr:0.0001 win_count: 000 episodes: 022 loss: 399.972819
+score: -407
+epoch: 0234 lr:0.0001 win_count: 000 episodes: 137 loss: 377.822068
+score: -507
+epoch: 0235 lr:0.0001 win_count: 000 episodes: 107 loss: 377.497031
+score: -568
+epoch: 0236 lr:0.0001 win_count: 000 episodes: 298 loss: 373.681493
+score: -414
+epoch: 0237 lr:0.0001 win_count: 000 episodes: 024 loss: 378.119424
+score: -552
+epoch: 0238 lr:0.0001 win_count: 000 episodes: 292 loss: 362.472361
+score: -381
+epoch: 0239 lr:0.0001 win_count: 000 episodes: 021 loss: 412.386156
+score: -440
+epoch: 0240 lr:0.0001 win_count: 000 episodes: 040 loss: 345.454783
+score: -447
+epoch: 0241 lr:0.0001 win_count: 000 episodes: 027 loss: 395.604622
+score: -549
+epoch: 0242 lr:0.0001 win_count: 000 episodes: 309 loss: 386.591623
+score: -535
+epoch: 0243 lr:0.0001 win_count: 000 episodes: 315 loss: 354.081538
+score: -395
+epoch: 0244 lr:0.0001 win_count: 000 episodes: 035 loss: 377.737197
+score: -420
+epoch: 0245 lr:0.0001 win_count: 000 episodes: 030 loss: 376.929000
+score: -503
+epoch: 0246 lr:0.0001 win_count: 000 episodes: 033 loss: 364.037821
+score: -370
+epoch: 0247 lr:0.0001 win_count: 000 episodes: 030 loss: 435.727614
+score: -251
+epoch: 0248 lr:0.0001 win_count: 000 episodes: 161 loss: 356.101602
+score: -283
+epoch: 0249 lr:0.0001 win_count: 000 episodes: 123 loss: 353.286967
+score: -473
+epoch: 0250 lr:0.0001 win_count: 000 episodes: 023 loss: 332.270623
+score: -271
+epoch: 0251 lr:0.0001 win_count: 000 episodes: 121 loss: 390.001547
+score: -386
+epoch: 0252 lr:0.0001 win_count: 000 episodes: 046 loss: 387.978685

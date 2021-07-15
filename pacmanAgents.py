@@ -4,7 +4,7 @@
 # educational purposes provided that (1) you do not distribute or publish
 # solutions, (2) you retain this notice, and (3) you provide clear
 # attribution to UC Berkeley, including a link to http://ai.berkeley.edu.
-# 
+#
 # Attribution Information: The Pacman AI projects were developed at UC Berkeley.
 # The core projects and autograders were primarily created by John DeNero
 # (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
@@ -14,16 +14,32 @@
 
 from pacman import Directions
 from game import Agent
+from dqntrain import CNNModel, convert_to_image, index2action
+import torch
+import numpy as np
 import random
 import game
 import util
 
-class DQNAgent(Agent):
-    "An agent that performs a DQN optimization."
+
+class DQNAgent(game.Agent):
+    def __init__(self):
+        self.model = CNNModel(20, 7)
+        checkpoint = torch.load("model_checkpoint/smallClassic_3000_21044.8619.pt",
+                              map_location=torch.device('cpu'))
+        self.model.load_state_dict(checkpoint['model_state_dict'])
+        self.model.eval()
+
     def getAction(self, state):
-        "The agent always goes West."
-        print(state)
-        return Directions.WEST
+        image = convert_to_image(state)
+        tensor = torch.tensor(np.moveaxis(image, -1, 0)/255.0,
+                            dtype=torch.float).unsqueeze(0)
+        q = self.model(tensor)
+        action = np.argsort(q[0].detach().numpy())
+        action = [index2action[x] for x in action if index2action[x] in\
+                state.getLegalPacmanActions()][-1]
+        return action
+
 
 class LeftTurnAgent(game.Agent):
     "An agent that turns left at every opportunity"
